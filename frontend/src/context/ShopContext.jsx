@@ -182,13 +182,6 @@ const ShopContextProvider = (props) => {
   // Load products when application starts
   useEffect(() => {
     getProductsData();
-
-    const savedToken = localStorage.getItem('token');
-
-    if (savedToken) {
-      setToken(savedToken);
-    }
-
   }, []);
 
   // Load database cart whenever token changes
