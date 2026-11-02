@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../components/Title';
 import { assets } from '../assets/assets';
-import NewsletterBox from '../components/NewsletterBox';
+import NewsletterBox from "../components/NewsLetterBox";
 
 const About = () => {
 return ( <div> <div className="text-2xl text-center pt-8 border-t"> <Title text1="ABOUT" text2="US" /> </div>
