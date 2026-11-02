@@ -45,7 +45,8 @@ const placeOrderCod = async (req, res) => {
 
 // Placing order using Stripe method
 const placeOrderStripe = async (req, res) => { };
-
+console.log("Razorpay key configured:", !!process.env.RAZORPAY_KEY_ID);
+console.log("Razorpay secret configured:", !!process.env.RAZORPAY_KEY_SECRET);
 // Placing order using Razorpay method
 const placeOrderRazorpay = async (req, res) => {
     try {
